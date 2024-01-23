@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Omnifood-React/static/css/main.03527194.css",
+    "main.js": "/Omnifood-React/static/js/main.c2509c43.js",
+    "static/media/eating.jpg": "/Omnifood-React/static/media/eating.fb10ee9ced850d7e76d2.jpg",
+    "index.html": "/Omnifood-React/index.html",
+    "main.03527194.css.map": "/Omnifood-React/static/css/main.03527194.css.map",
+    "main.c2509c43.js.map": "/Omnifood-React/static/js/main.c2509c43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03527194.css",
+    "static/js/main.c2509c43.js"
+  ]
+}
