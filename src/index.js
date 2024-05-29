@@ -11,23 +11,25 @@ import Testimonials from "./Component/Testimonials";
 import Pricing from "./Component/Pricing";
 import Cta from "./Component/Cta";
 import Footer from "./Component/Footer";
-// import myName from "./Component/other";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <main>
-        <Hero />
-        <Featured />
-        <How />
-        <Meals />
-        <Testimonials />
-        <Pricing />
-        <Cta />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Nav />
+        <main>
+          <Hero />
+          <Featured />
+          <How />
+          <Meals />
+          <Testimonials />
+          <Pricing />
+          <Cta />
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

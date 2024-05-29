@@ -27,7 +27,7 @@ for (let i = 1; i <= 3; i++) {
 
 export default function How() {
   return (
-    <section className="section-how">
+    <section className="section-how" id="section-how">
       <div className="container">
         <span className="subheading">How it works</span>
         <h2 className="heading-secondary">

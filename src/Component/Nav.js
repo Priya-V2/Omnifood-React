@@ -1,9 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-
-const navHead = ["How it works", "Meals", "Testimonials", "Pricing"];
-// const btnNavEl = document.querySelector(".btn-mobile-nav"),
-//   headerEl = document.querySelector(".header");
+import { HashLink } from "react-router-hash-link";
 
 export default function Nav() {
   return (
@@ -12,15 +8,37 @@ export default function Nav() {
         <img src="img/omnifood-logo.png" alt="omnifood logo" className="logo" />
         <nav className="main-nav">
           <ul className="main-nav-list">
-            {navHead.map((data, index) => {
-              return (
-                <li key={index}>
-                  <a href="#" className="main-nav-link" key={index}>
-                    {data}
-                  </a>
-                </li>
-              );
-            })}
+            <li key={1}>
+              <HashLink to="#section-how">
+                <a href="#" className="main-nav-link" key={1}>
+                  How it works
+                </a>
+              </HashLink>
+            </li>
+            <li key={2}>
+              <HashLink to="#section-meals">
+                <a href="#" className="main-nav-link" key={2}>
+                  Meals
+                </a>
+              </HashLink>
+            </li>
+
+            <li key={3}>
+              <HashLink to="#section-testimonials">
+                <a href="#" className="main-nav-link" key={3}>
+                  Testimonials
+                </a>
+              </HashLink>
+            </li>
+
+            <li key={4}>
+              <HashLink to="#section-pricing">
+                <a href="#" className="main-nav-link" key={4}>
+                  Pricing
+                </a>
+              </HashLink>
+            </li>
+
             <li>
               <a href="#" className="main-nav-link nav-cta">
                 Try for free

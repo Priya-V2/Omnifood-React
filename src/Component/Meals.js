@@ -45,7 +45,7 @@ const mealImg = [
 
 export default function Meals() {
   return (
-    <section className="section-meals">
+    <section className="section-meals" id="section-meals">
       <div className="container center">
         <span className="subheading">Meals</span>
         <h2 className="heading-secondary">

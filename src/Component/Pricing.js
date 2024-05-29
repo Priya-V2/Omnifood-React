@@ -57,7 +57,7 @@ const pricingDetails = [
 
 export default function Pricing() {
   return (
-    <section className="section-pricing">
+    <section className="section-pricing" id="section-pricing">
       <div className="container">
         <span className="subheading">Pricing</span>
         <h2 className="heading-secondary">

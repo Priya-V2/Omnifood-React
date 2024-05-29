@@ -30,7 +30,7 @@ for (let i = 1; i <= 12; i++) {
 
 export default function Testimonials() {
   return (
-    <section className="section-testimonials">
+    <section className="section-testimonials" id="section-testimonials">
       <div className="testimonials-container">
         <span className="subheading">testimonials</span>
         <h2 className="heading-secondary">
